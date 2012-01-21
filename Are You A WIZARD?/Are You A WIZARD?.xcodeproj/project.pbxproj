@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0AA88C914C1CA9D00963A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AA88C814C1CA9D00963A5A /* Foundation.framework */; };
+		D0AA88CC14C1CA9D00963A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AA88CB14C1CA9D00963A5A /* main.m */; };
+		D0AA88D014C1CA9D00963A5A /* Are_You_A_WIZARD_.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0AA88CF14C1CA9D00963A5A /* Are_You_A_WIZARD_.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0AA88C214C1CA9D00963A5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D0AA88D014C1CA9D00963A5A /* Are_You_A_WIZARD_.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0AA88C414C1CA9D00963A5A /* Are You A WIZARD? */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Are You A WIZARD?"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AA88C814C1CA9D00963A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0AA88CB14C1CA9D00963A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0AA88CE14C1CA9D00963A5A /* Are You A WIZARD?-Prefix.pch */ = {isa = PBXFileReference; path = "Are You A WIZARD?-Prefix.pch"; sourceTree = "<group>"; };
+		D0AA88CF14C1CA9D00963A5A /* Are_You_A_WIZARD_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Are_You_A_WIZARD_.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0AA88C114C1CA9D00963A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AA88C914C1CA9D00963A5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0AA88B914C1CA9D00963A5A = {
+			isa = PBXGroup;
+			children = (
+				D0AA88CA14C1CA9D00963A5A /* Are You A WIZARD? */,
+				D0AA88C714C1CA9D00963A5A /* Frameworks */,
+				D0AA88C514C1CA9D00963A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0AA88C514C1CA9D00963A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA88C414C1CA9D00963A5A /* Are You A WIZARD? */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0AA88C714C1CA9D00963A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA88C814C1CA9D00963A5A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AA88CA14C1CA9D00963A5A /* Are You A WIZARD? */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA88CB14C1CA9D00963A5A /* main.m */,
+				D0AA88CF14C1CA9D00963A5A /* Are_You_A_WIZARD_.1 */,
+				D0AA88CD14C1CA9D00963A5A /* Supporting Files */,
+			);
+			path = "Are You A WIZARD?";
+			sourceTree = "<group>";
+		};
+		D0AA88CD14C1CA9D00963A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA88CE14C1CA9D00963A5A /* Are You A WIZARD?-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0AA88C314C1CA9D00963A5A /* Are You A WIZARD? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AA88D314C1CA9D00963A5A /* Build configuration list for PBXNativeTarget "Are You A WIZARD?" */;
+			buildPhases = (
+				D0AA88C014C1CA9D00963A5A /* Sources */,
+				D0AA88C114C1CA9D00963A5A /* Frameworks */,
+				D0AA88C214C1CA9D00963A5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Are You A WIZARD?";
+			productName = "Are You A WIZARD?";
+			productReference = D0AA88C414C1CA9D00963A5A /* Are You A WIZARD? */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0AA88BB14C1CA9D00963A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D0AA88BE14C1CA9D00963A5A /* Build configuration list for PBXProject "Are You A WIZARD?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0AA88B914C1CA9D00963A5A;
+			productRefGroup = D0AA88C514C1CA9D00963A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0AA88C314C1CA9D00963A5A /* Are You A WIZARD? */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0AA88C014C1CA9D00963A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AA88CC14C1CA9D00963A5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0AA88D114C1CA9D00963A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0AA88D214C1CA9D00963A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0AA88D414C1CA9D00963A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Are You A WIZARD?/Are You A WIZARD?-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0AA88D514C1CA9D00963A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Are You A WIZARD?/Are You A WIZARD?-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0AA88BE14C1CA9D00963A5A /* Build configuration list for PBXProject "Are You A WIZARD?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AA88D114C1CA9D00963A5A /* Debug */,
+				D0AA88D214C1CA9D00963A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AA88D314C1CA9D00963A5A /* Build configuration list for PBXNativeTarget "Are You A WIZARD?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AA88D414C1CA9D00963A5A /* Debug */,
+				D0AA88D514C1CA9D00963A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0AA88BB14C1CA9D00963A5A /* Project object */;
+}
