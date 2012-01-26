@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet MKMapView *worldView;
+    IBOutlet UIActivityIndicatorView *activityIndicator;
+    IBOutlet UITextField *locationTitleField;
+}
 
 @end

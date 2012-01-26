@@ -17,12 +17,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //create location management object
+    locationManager = [[CLLocationManager alloc] init];
+    
+    [locationManager setDelegate:self];
+    
+    //we want all results from the location manager
+    [locationManager setDistanceFilter:kCLDistanceFilterNone];
+    
+    //we want it to be as accurate as possible regardless of how much time/power it takes
+    [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+    
+    //tell our manager to start looking for its location immediately
+    //[locationManager startUpdatingLocation];
+    
+    //[locationManager startUpdatingHeading];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading{
+    NSLog(@"heading: %@", newHeading);
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
+    NSLog(@"%@",newLocation);
+}
+
+- (void)locationManager:(CLLocationManager *)Manager didFailWithError:(NSError *)error{
+    NSLog(@"Could not find location: %@", error);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

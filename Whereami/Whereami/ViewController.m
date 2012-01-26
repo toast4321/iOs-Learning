@@ -10,6 +10,19 @@
 
 @implementation ViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    
+    self = [super initWithNibName:@"ViewController" bundle:nil];
+    
+    if (self){
+        //since mapkit is already location aware, this tells it to show its location
+        [worldView setShowsUserLocation:YES];
+        //[worldView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
+    }
+    
+    return self;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

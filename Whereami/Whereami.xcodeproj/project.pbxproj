@@ -15,6 +15,8 @@
 		D010730814CF125000A2844E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D010730714CF125000A2844E /* AppDelegate.m */; };
 		D010730B14CF125000A2844E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D010730A14CF125000A2844E /* ViewController.m */; };
 		D010730E14CF125000A2844E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D010730C14CF125000A2844E /* ViewController.xib */; };
+		D010731D14CF1BF400A2844E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D010731C14CF1BF400A2844E /* CoreLocation.framework */; };
+		D0D4813C14D0CDF900026FC8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D4813B14D0CDF900026FC8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		D01072F714CF125000A2844E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D01072F914CF125000A2844E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D01072FB14CF125000A2844E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D01072FF14CF125000A2844E /* Whereami-Info.plist */ = {isa = PBXFileReference; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
+		D01072FF14CF125000A2844E /* Whereami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
 		D010730114CF125000A2844E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D010730314CF125000A2844E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D010730514CF125000A2844E /* Whereami-Prefix.pch */ = {isa = PBXFileReference; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
-		D010730614CF125000A2844E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D010730514CF125000A2844E /* Whereami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
+		D010730614CF125000A2844E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D010730714CF125000A2844E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D010730914CF125000A2844E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D010730914CF125000A2844E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D010730A14CF125000A2844E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D010730D14CF125000A2844E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D010731C14CF1BF400A2844E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0D4813B14D0CDF900026FC8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D4813C14D0CDF900026FC8 /* MapKit.framework in Frameworks */,
+				D010731D14CF1BF400A2844E /* CoreLocation.framework in Frameworks */,
 				D01072F814CF125000A2844E /* UIKit.framework in Frameworks */,
 				D01072FA14CF125000A2844E /* Foundation.framework in Frameworks */,
 				D01072FC14CF125000A2844E /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,8 @@
 		D01072F614CF125000A2844E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0D4813B14D0CDF900026FC8 /* MapKit.framework */,
+				D010731C14CF1BF400A2844E /* CoreLocation.framework */,
 				D01072F714CF125000A2844E /* UIKit.framework */,
 				D01072F914CF125000A2844E /* Foundation.framework */,
 				D01072FB14CF125000A2844E /* CoreGraphics.framework */,
@@ -274,6 +282,7 @@
 				D010731314CF125000A2844E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
